@@ -1,0 +1,24 @@
+{
+  "name": "swag-labs",
+  "version": "1.0.0",
+  "description": "SwagLabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/local-runner": "^7.19.7",
+    "@wdio/mocha-framework": "^7.19.7",
+    "@wdio/spec-reporter": "^7.19.7",
+    "chai": "^4.3.6",
+    "chromedriver": "^101.0.0",
+    "local-runner": "^0.1.1-alpha",
+    "wdio-chromedriver-service": "^7.3.2",
+    "webdriverio": "^7.19.7"
+  },
+  "dependencies": {
+    "@wdio/cli": "^7.19.7"
+  }
+}
